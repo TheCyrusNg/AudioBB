@@ -12,5 +12,6 @@ class MainActivity : AppCompatActivity() {
             ,Book("Book6","Author6"),Book("Book7","Author7"),Book("Book8","Author8")
             ,Book("Book9","Author9"),Book("Book10","Author10")) as MutableList<Book>
         var newBooks  = BookList(bContainer)
+        var b : String= newBooks.get(0).author
     }
 }
